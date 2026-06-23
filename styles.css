@@ -4,13 +4,68 @@ body {
   margin: 0;
   padding: 0;
 }
-/* Header styles */
+
+html {
+  scroll-behavior: smooth;
+}
+
+.nav a.active {
+  font-weight: 700;
+}
+
+/* Font */
+.text-600-24 {
+  font-size: 24px;
+  font-weight: 600;
+}
+.text-700-12-red {
+  font-size: 12px;
+  font-weight: 700;
+  color: #c05a41;
+}
+.text-700-16-black {
+  font-size: 16px;
+  font-weight: 700;
+  color: #1a1c1c;
+}
+.text-400-14-gray-italic {
+  font-size: 14px;
+  font-weight: 400;
+  color: #5e5e5e;
+  font-style: italic;
+}
+.text-400-18-gray {
+  font-size: 18px;
+  font-weight: 400;
+  color: #5e5e5e;
+}
+.text-700-40-parfait-italic {
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+}
+
+/* Header */
 .header-inner {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 20px;
   border-bottom: 1px solid #5784ba;
+}
+
+/* Make the header sticky at the top */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: #ffffff; /* ensures content behind doesn't show through */
+}
+.title-text {
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 .header-functions {
   display: flex;
@@ -52,4 +107,45 @@ body {
 }
 .cta:hover {
   background: #5784ba;
+}
+
+/* About */
+.section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 40px 20px;
+  justify-content: space-between;
+  border-bottom: 1px solid #5784ba;
+}
+.about-left {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.about-right {
+  width: 350px;
+  padding: 20px;
+  background-color: #f0f4f5;
+  border-left: 4px solid #c05a41;
+  border-radius: 8px;
+}
+.education {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.edu-title {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #5784ba;
+}
+.edu-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.edu-container {
+  display: flex;
+  flex-direction: column;
 }

@@ -20,14 +20,19 @@
       <div class="header-inner">
         <div class="title">
           <img src="./assets/img/logo.png" alt="Logo" class="logo" />
-          <span class="title-text">PORTFOLIO</span>
+          <span class="title-text">portfolio</span>
         </div>
         <div class="header-functions">
           <nav class="nav">
-            <a href="#about" data-i18n="nav.about"></a>
-            <a href="#experience" data-i18n="nav.experience"></a>
-            <a href="#projects" data-i18n="nav.projects"></a>
-            <a href="#contact" data-i18n="nav.contact"></a>
+            <a class="nav-link active" href="#about" data-i18n="nav.about"></a>
+            <a
+              class="nav-link"
+              href="#experience"
+              data-i18n="nav.experience"
+            ></a>
+            <a class="nav-link" href="#projects" data-i18n="nav.projects"></a>
+            <a class="nav-link" href="#gallery" data-i18n="nav.gallery"></a>
+            <a class="nav-link" href="#contact" data-i18n="nav.contact"></a>
           </nav>
           <span>|</span>
           <div class="language-switcher" aria-label="Language switcher">
@@ -49,7 +54,86 @@
         ></a>
       </div>
     </header>
+    <main>
+      <section id="about" class="section">
+        <div class="about-left">
+          <span class="text-700-12-red" data-i18n="nav.about"></span>
+          <span
+            class="text-700-40-parfait-italic"
+            data-i18n="about.description1"
+          ></span>
+          <p class="text-400-18-gray" data-i18n="about.description2"></p>
+        </div>
+        <div class="about-right">
+          <div class="education">
+            <div class="edu-title">
+              <span class="text-600-24" data-i18n="about.education"></span>
+            </div>
+
+            <div class="edu-list">
+              <div class="edu-item">
+                <span class="text-700-12-red" data-i18n="about.years1"></span>
+                <div class="edu-container">
+                  <span
+                    class="text-700-16-black"
+                    data-i18n="about.degree1"
+                  ></span>
+                  <span
+                    class="text-400-14-gray-italic"
+                    data-i18n="about.school1"
+                  ></span>
+                </div>
+              </div>
+              <div class="edu-item">
+                <span class="text-700-12-red" data-i18n="about.years2"></span>
+                <div class="edu-container">
+                  <span
+                    class="text-700-16-black"
+                    data-i18n="about.degree2"
+                  ></span>
+                  <span
+                    class="text-400-14-gray-italic"
+                    data-i18n="about.school2"
+                  ></span>
+                </div>
+              </div>
+              <div class="edu-item">
+                <span class="text-700-12-red" data-i18n="about.years3"></span>
+                <div class="edu-container">
+                  <span
+                    class="text-700-16-black"
+                    data-i18n="about.degree3"
+                  ></span>
+                  <span
+                    class="text-400-14-gray-italic"
+                    data-i18n="about.school3"
+                  ></span>
+                </div>
+              </div>
+              <div class="edu-item">
+                <span class="text-700-12-red" data-i18n="about.years4"></span>
+                <div class="edu-container">
+                  <span
+                    class="text-700-16-black"
+                    data-i18n="about.degree4"
+                  ></span>
+                  <span
+                    class="text-400-14-gray-italic"
+                    data-i18n="about.school4"
+                  ></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="experience" class="section"></section>
+      <section id="projects" class="section"></section>
+      <section id="gallery" class="section"></section>
+      <section id="contact" class="section"></section>
+    </main>
     <script src="scripts/constants.js"></script>
     <script src="scripts/translation.js"></script>
+    <script src="scripts/ui.js"></script>
   </body>
 </html>
