@@ -1,15 +1,51 @@
 <!doctype html>
-<html lang="fr">
+<html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio de Tam - 2026</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portfolio de Tam</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,700;1,300&family=Inter:wght@300;400;600&family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/png" href="/assets/img/logo.png" />
   </head>
   <body>
-    <h1>Portfolio de Tam</h1>
-    <h2>Présentation</h2>
-    <h2>Projets</h2>
-    <h2>Compétences</h2>
-    <h2>Contact</h2>
+    <header class="site-header">
+      <div class="header-inner">
+        <div class="title">
+          <img src="./assets/img/logo.png" alt="Logo" class="logo" />
+          <span class="title-text">PORTFOLIO</span>
+        </div>
+        <div class="header-functions">
+          <nav class="nav">
+            <a href="#about" data-i18n="nav.about"></a>
+            <a href="#experience" data-i18n="nav.experience"></a>
+            <a href="#projects" data-i18n="nav.projects"></a>
+            <a href="#contact" data-i18n="nav.contact"></a>
+          </nav>
+          <span>|</span>
+          <div class="language-switcher" aria-label="Language switcher">
+            <span class="lang active" data-lang="fr" role="button" tabindex="0"
+              >FR</span
+            >
+            <span aria-hidden="true">|</span>
+            <span class="lang" data-lang="en" role="button" tabindex="0"
+              >EN</span
+            >
+          </div>
+        </div>
+
+        <a
+          class="cta"
+          href="https://drive.google.com/uc?export=download&id=1WdFIeWmRwFlpC6grM_0GVmGVx2A7xeOz"
+          rel="noopener noreferrer"
+          data-i18n="cta.download"
+        ></a>
+      </div>
+    </header>
+    <script src="scripts/constants.js"></script>
+    <script src="scripts/translation.js"></script>
   </body>
 </html>
