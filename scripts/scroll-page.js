@@ -60,6 +60,5 @@ document.addEventListener("DOMContentLoaded", () => {
   };
 
   window.addEventListener("scroll", onScroll, { passive: true });
-  // run once to initialise
   onScroll();
 });

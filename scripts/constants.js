@@ -26,7 +26,20 @@ const TRANSLATIONS = {
     "about.description1":
       "Communications specialist - Content Writer - Conceptrice interactive",
     "about.description2":
-      "Je suis une étudiante en dernière année de design, spécialisée dans l'intersection entre le cinéma documentaire et les interfaces web interactives. Mon travail vise à simplifier la complexité et à mettre en lumière les histoires humaines derrière les pixels.",
+      "Je suis un étudiant en dernière année du Master Cultures et métiers du web, spécialisé dans l'intersection entre le documentaire et les interfaces interactives. Mon travail vise à simplifier le complexe et à mettre en lumière ce qui est souvent négligé.",
+    "exp.title": "CARRIÈRE",
+    "exp.subtitle": "Expérience professionnelle",
+    "exp.type1": "ALTERNANCE",
+    "exp.type2": "STAGE",
+    "exp.name1": "Freelance Web Designer",
+    "exp.description1":
+      "Collaborating with independent studios and local artisans to build intentional digital presence. Focused on accessibility and structural clarity.",
+    "exp.more1-1": "Digital Communication Officer (apprenticeship).",
+    "exp.more1-2":
+      "Deployed multi-channel marketing strategies and managed e-commerce content (PrestaShop).",
+    "exp.more1-3":
+      "Created and optimized digital assets, monitored KPIs, and delivered UX recommendations to enhance user journeys.",
+    "exp.years1": "2022 — Présent",
   },
   en: {
     "nav.about": "About",
@@ -54,6 +67,19 @@ const TRANSLATIONS = {
     "about.description1":
       "Communications specialist - Content Writer - Conceptrice interactive",
     "about.description2":
-      "I am a final-year design student focused on the intersection of documentary filmmaking and interactive web interfaces. My work seeks to simplify complexity and highlight the human stories behind the pixels.",
+      "I am a final-year Master's student in Web Cultures and Professions, specializing in the intersection of documentary and interactive interfaces. My work aims to simplify the complex and shed light on what is often overlooked.",
+    "exp.title": "CAREER",
+    "exp.subtitle": "Professional Experience",
+    "exp.type1": "APPRENTICESHIP",
+    "exp.type2": "INTERNSHIP",
+    "exp.name1": "Freelance Web Designer",
+    "exp.description1":
+      "Collaborating with independent studios and local artisans to build intentional digital presence. Focused on accessibility and structural clarity.",
+    "exp.more1-1": "Digital Communication Officer (apprenticeship).",
+    "exp.more1-2":
+      "Deployed multi-channel marketing strategies and managed e-commerce content (PrestaShop).",
+    "exp.more1-3":
+      "Created and optimized digital assets, monitored KPIs, and delivered UX recommendations to enhance user journeys.",
+    "exp.years1": "2022 — Present",
   },
 };
