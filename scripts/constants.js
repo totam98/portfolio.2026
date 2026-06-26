@@ -60,7 +60,7 @@ const TRANSLATIONS = {
     "contact.location": "Localisation",
     "contact.city1": "Paris, France",
     "contact.city2": "Hanoi, Vietnam",
-    "footer.text": "© 2026 NGUYEN Thi To Tam. Tous droits réservés.",
+    "footer.text": "©2026 NGUYEN Thi To Tam. Tous droits réservés.",
   },
   en: {
     "nav.about": "About",
@@ -122,7 +122,7 @@ const TRANSLATIONS = {
     "contact.location": "Location",
     "contact.city1": "Paris, France",
     "contact.city2": "Hanoi, Vietnam",
-    "footer.text": "© 2026 NGUYEN Thi To Tam. All rights reserved.",
+    "footer.text": "©2026 NGUYEN Thi To Tam. All rights reserved.",
   },
 };
 
