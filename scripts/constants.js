@@ -6,7 +6,9 @@ const TRANSLATIONS = {
     "nav.gallery": "Galerie",
     "nav.contact": "Contact",
     "cta.download": "Télécharger CV",
-    "about.education": "Formation",
+    "about.title": "UNE ÉTUDIANTE VIETNAMIENNE EN FRANCE",
+    "about.name": "NGUYEN Thi To Tam",
+    "about.education": "FORMATION",
     "about.years1": "2024 — 2026",
     "about.years2": "2020 — 2022",
     "about.years3": "2019 — 2020",
@@ -22,9 +24,9 @@ const TRANSLATIONS = {
     "about.degree4":
       "DUT Information- Communication option Communication des organisations",
     "about.description1":
-      "Curating digital narratives and human-centred experiences",
+      "Communications specialist - Content Writer - Conceptrice interactive",
     "about.description2":
-      "Je suis un étudiant en dernière année de design, spécialisé dans l'intersection entre le documentaire et les interfaces interactives. Mon travail vise à simplifier le complexe et à mettre en lumière ce qui est souvent négligé.",
+      "Je suis une étudiante en dernière année de design, spécialisée dans l'intersection entre le cinéma documentaire et les interfaces web interactives. Mon travail vise à simplifier la complexité et à mettre en lumière les histoires humaines derrière les pixels.",
   },
   en: {
     "nav.about": "About",
@@ -33,7 +35,9 @@ const TRANSLATIONS = {
     "nav.gallery": "Gallery",
     "nav.contact": "Contact",
     "cta.download": "Download CV",
-    "about.education": "Education",
+    "about.title": "A VIETNAMESE STUDENT IN FRANCE",
+    "about.name": "NGUYEN Thi To Tam",
+    "about.education": "EDUCATION",
     "about.years1": "2024 — 2026",
     "about.years2": "2020 — 2022",
     "about.years3": "2019 — 2020",
@@ -48,8 +52,8 @@ const TRANSLATIONS = {
     "about.degree3": "Bachelor's Degree in Audiovisual Communication",
     "about.degree4": "DUT Corporate & Organizational Communication",
     "about.description1":
-      "Curating digital narratives and human-centred experiences",
+      "Communications specialist - Content Writer - Conceptrice interactive",
     "about.description2":
-      "I am a final-year design student focused on the intersection of documentary filmmaking and interactive interfaces. My work seeks to simplify the complex and highlight the overlooked.",
+      "I am a final-year design student focused on the intersection of documentary filmmaking and interactive web interfaces. My work seeks to simplify complexity and highlight the human stories behind the pixels.",
   },
 };
