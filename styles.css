@@ -222,7 +222,7 @@ html {
   flex: 0 0 auto;
   background: #ffffff;
   border: 1px solid #dce6ef;
-  border-radius: 20px;
+  border-radius: 4px;
   padding: 30px;
   display: flex;
   flex-direction: column;
@@ -343,6 +343,142 @@ html {
 .carousel-button:disabled {
   opacity: 0.35;
   cursor: default;
+}
+
+.project-carousel {
+  position: relative;
+}
+
+.project-list {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  touch-action: pan-y;
+  cursor: grab;
+  padding-bottom: 10px;
+}
+
+.project-list:active {
+  cursor: grabbing;
+}
+
+.project-list::-webkit-scrollbar {
+  height: 8px;
+}
+
+.project-list::-webkit-scrollbar-thumb {
+  background: rgba(65, 98, 120, 0.3);
+  border-radius: 999px;
+}
+
+.project-item {
+  position: relative;
+  min-width: 360px;
+  max-width: 360px;
+  flex: 0 0 auto;
+  background: #ffffff;
+  border: 1px solid #dce6ef;
+  border-radius: 4px;
+  overflow: hidden;
+  scroll-snap-align: start;
+  cursor: pointer;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.25s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 30px rgba(65, 98, 120, 0.12);
+}
+
+.project-item:hover h3 {
+  color: #5784ba;
+}
+
+.project-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.project-content {
+  position: relative;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  flex: 1;
+}
+
+.project-link {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  display: grid;
+  place-items: center;
+  color: #5784ba;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.project-type {
+  border: 1px solid #5784ba;
+  border-radius: 2px;
+  padding: 4px 12px;
+  width: fit-content;
+}
+
+.project-item h3 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+@media (max-width: 900px) {
+  .project-list {
+    gap: 16px;
+  }
+
+  .project-item {
+    min-width: 320px;
+    max-width: 320px;
+  }
+
+  .project-image {
+    height: 180px;
+  }
+}
+
+@media (max-width: 640px) {
+  .project-carousel {
+    padding: 0 8px;
+  }
+
+  .carousel-button {
+    display: none;
+  }
+
+  .project-list {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+
+  .project-item {
+    min-width: 280px;
+    max-width: 280px;
+  }
+
+  .project-image {
+    height: 160px;
+  }
 }
 
 @media (max-width: 900px) {

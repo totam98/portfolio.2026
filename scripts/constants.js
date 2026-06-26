@@ -31,15 +31,21 @@ const TRANSLATIONS = {
     "exp.subtitle": "Expérience professionnelle",
     "exp.type1": "ALTERNANCE",
     "exp.type2": "STAGE",
-    "exp.name1": "Freelance Web Designer",
+    "exp.name1": "Digital Communication Officer",
     "exp.description1":
-      "Collaborating with independent studios and local artisans to build intentional digital presence. Focused on accessibility and structural clarity.",
+      "Déploiement de stratégies marketing multicanal et gestion de contenu e-commerce (PrestaShop). Création et optimisation d'actifs numériques, suivi des KPI et recommandations UX pour améliorer les parcours utilisateurs.",
     "exp.more1-1": "Digital Communication Officer (apprenticeship).",
     "exp.more1-2":
       "Deployed multi-channel marketing strategies and managed e-commerce content (PrestaShop).",
     "exp.more1-3":
       "Created and optimized digital assets, monitored KPIs, and delivered UX recommendations to enhance user journeys.",
     "exp.years1": "2022 — Présent",
+    "project.title": "CRÉATION NUMÉRIQUE",
+    "project.subtitle": "Projets sélectionnés",
+    "project.name1": "Vivre sans les Chaebols",
+    "project.type1": "DOCUMENTAIRE / WEB INTERACTIF",
+    "project.description1":
+      "Conception d'un web-documentaire majeur (Master M2). En charge de la recherche documentaire thématique et de la rédaction globale des contenus du site interactif.",
   },
   en: {
     "nav.about": "About",
@@ -72,14 +78,28 @@ const TRANSLATIONS = {
     "exp.subtitle": "Professional Experience",
     "exp.type1": "APPRENTICESHIP",
     "exp.type2": "INTERNSHIP",
-    "exp.name1": "Freelance Web Designer",
+    "exp.name1": "Digital Communication Officer",
     "exp.description1":
-      "Collaborating with independent studios and local artisans to build intentional digital presence. Focused on accessibility and structural clarity.",
+      "Deployed multi-channel marketing strategies and managed e-commerce content (PrestaShop). Created and optimized digital assets, monitored KPIs, and delivered UX recommendations to enhance user journeys.",
     "exp.more1-1": "Digital Communication Officer (apprenticeship).",
     "exp.more1-2":
       "Deployed multi-channel marketing strategies and managed e-commerce content (PrestaShop).",
     "exp.more1-3":
       "Created and optimized digital assets, monitored KPIs, and delivered UX recommendations to enhance user journeys.",
     "exp.years1": "2022 — Present",
+    "project.title": "DIGITAL CREATION",
+    "project.subtitle": "Selected Projects",
+    "project.name1": "Living without the Chaebols",
+    "project.type1": "DOCUMENTARY / INTERACTIVE WEBSITE",
+    "project.description1":
+      "Designed a major web-documentary (Master M2). Responsible for thematic documentary research and overall content writing for the interactive website.",
   },
 };
+
+const PROJECT_ITEMS = [
+  {
+    name: "project.name1",
+    type: "project.type1",
+    description: "project.description1",
+  },
+];
