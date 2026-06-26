@@ -43,13 +43,22 @@ document.addEventListener("DOMContentLoaded", () => {
     if (Date.now() < ignoreScrollUntil) return;
     const offset = window.innerHeight * 0.25;
     let current = null;
-    for (const sec of sections) {
-      const rect = sec.getBoundingClientRect();
-      if (rect.top <= offset && rect.bottom > offset) {
-        current = sec;
-        break;
+
+    if (
+      window.innerHeight + window.pageYOffset >=
+      document.documentElement.scrollHeight - 1
+    ) {
+      current = sections[sections.length - 1];
+    } else {
+      for (const sec of sections) {
+        const rect = sec.getBoundingClientRect();
+        if (rect.top <= offset && rect.bottom > offset) {
+          current = sec;
+          break;
+        }
       }
     }
+
     if (!current) current = sections[0];
     if (current) {
       const id = current.id;

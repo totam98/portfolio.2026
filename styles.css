@@ -888,3 +888,40 @@ p {
     font-size: 24px;
   }
 }
+
+/* Contact */
+#contact {
+  border-bottom: none;
+}
+.contact-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.contact-link {
+  text-decoration: none;
+  color: #5784ba;
+  font-weight: 700;
+  font-size: 24px;
+  color: #5784ba;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #5784ba;
+}
+.contact-right {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.social-link {
+  text-decoration: none;
+  color: #000;
+  font-size: 16px;
+}
+
+/* Footer */
+.site-footer {
+  padding: 10px;
+  text-align: center;
+  color: #1a1c1d;
+  font-size: 10px;
+}
