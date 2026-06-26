@@ -59,6 +59,42 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   };
 
+  const burgerButton = document.querySelector(".burger-button");
+  const mobileMenu = document.querySelector(".mobile-menu");
+
+  const closeMobileMenu = () => {
+    if (!burgerButton || !mobileMenu) return;
+    burgerButton.classList.remove("active");
+    burgerButton.setAttribute("aria-expanded", "false");
+    mobileMenu.classList.remove("active");
+    mobileMenu.setAttribute("aria-hidden", "true");
+  };
+
+  if (burgerButton && mobileMenu) {
+    burgerButton.addEventListener("click", () => {
+      const isOpen = mobileMenu.classList.toggle("active");
+      burgerButton.classList.toggle("active", isOpen);
+      burgerButton.setAttribute("aria-expanded", String(isOpen));
+      mobileMenu.setAttribute("aria-hidden", String(!isOpen));
+    });
+
+    mobileMenu.addEventListener("click", (event) => {
+      if (event.target.closest(".nav a.nav-link")) {
+        closeMobileMenu();
+      }
+    });
+
+    document.addEventListener("click", (event) => {
+      if (
+        mobileMenu.classList.contains("active") &&
+        !event.target.closest(".mobile-menu") &&
+        !event.target.closest(".burger-button")
+      ) {
+        closeMobileMenu();
+      }
+    });
+  }
+
   window.addEventListener("scroll", onScroll, { passive: true });
   onScroll();
 });

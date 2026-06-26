@@ -46,6 +46,12 @@ const TRANSLATIONS = {
     "project.type1": "DOCUMENTAIRE / WEB INTERACTIF",
     "project.description1":
       "Conception d'un web-documentaire majeur (Master M2). En charge de la recherche documentaire thématique et de la rédaction globale des contenus du site interactif.",
+    "gallery.title": "ÉTUDES VISUELLES",
+    "gallery.subtitle": "Albums photo",
+    "gallery.album1": "Pigeons dans le jardin",
+    "gallery.year1": "2022",
+    "gallery.album2": "Chats dans le jardin",
+    "gallery.year2": "2023",
   },
   en: {
     "nav.about": "About",
@@ -93,6 +99,12 @@ const TRANSLATIONS = {
     "project.type1": "DOCUMENTARY / INTERACTIVE WEBSITE",
     "project.description1":
       "Designed a major web-documentary (Master M2). Responsible for thematic documentary research and overall content writing for the interactive website.",
+    "gallery.title": "VISUAL STUDIES",
+    "gallery.subtitle": "Photo Albums",
+    "gallery.album1": "Pigeons in the garden",
+    "gallery.year1": "2022",
+    "gallery.album2": "Cats in the garden",
+    "gallery.year2": "2023",
   },
 };
 

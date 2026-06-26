@@ -36,6 +36,14 @@
             <a class="nav-link" href="#gallery" data-i18n="nav.gallery"></a>
             <a class="nav-link" href="#contact" data-i18n="nav.contact"></a>
           </nav>
+          <button
+            class="burger-button"
+            type="button"
+            aria-label="Open menu"
+            aria-expanded="false"
+          >
+            <span></span>
+          </button>
           <span>|</span>
           <div class="language-switcher" aria-label="Language switcher">
             <span class="lang active" data-lang="fr" role="button" tabindex="0"
@@ -52,6 +60,48 @@
               alt="Night mode"
               class="night-mode-icon"
             />
+          </div>
+        </div>
+
+        <div class="mobile-menu" aria-hidden="true">
+          <nav class="nav mobile-nav">
+            <a class="nav-link active" href="#about" data-i18n="nav.about"></a>
+            <a
+              class="nav-link"
+              href="#experience"
+              data-i18n="nav.experience"
+            ></a>
+            <a class="nav-link" href="#projects" data-i18n="nav.projects"></a>
+            <a class="nav-link" href="#gallery" data-i18n="nav.gallery"></a>
+            <a class="nav-link" href="#contact" data-i18n="nav.contact"></a>
+          </nav>
+          <div class="mobile-actions">
+            <div class="language-switcher" aria-label="Language switcher">
+              <span
+                class="lang active"
+                data-lang="fr"
+                role="button"
+                tabindex="0"
+                >FR</span
+              >
+              <span aria-hidden="true">|</span>
+              <span class="lang" data-lang="en" role="button" tabindex="0"
+                >EN</span
+              >
+            </div>
+            <div class="mobile-night">
+              <img
+                src="./assets/img/moon.png"
+                alt="Night mode"
+                class="night-mode-icon"
+              />
+            </div>
+            <a
+              class="cta mobile-cta"
+              href="https://drive.google.com/uc?export=download&id=1WdFIeWmRwFlpC6grM_0GVmGVx2A7xeOz"
+              rel="noopener noreferrer"
+              data-i18n="cta.download"
+            ></a>
           </div>
         </div>
 
@@ -533,13 +583,220 @@
           </div>
         </div>
       </section>
-      <section id="gallery" class="section"></section>
+      <section id="gallery" class="section">
+        <span class="text-700-12-blue" data-i18n="gallery.title"></span>
+        <span
+          class="text-600-32-blue-playfair"
+          data-i18n="gallery.subtitle"
+        ></span>
+        <div class="gallery-carousel">
+          <div class="gallery-list">
+            <article class="gallery-item">
+              <div class="gallery-header">
+                <div>
+                  <span
+                    class="text-700-12-blue"
+                    data-i18n="gallery.album1"
+                  ></span>
+                </div>
+                <span class="text-700-12-blue" data-i18n="gallery.year1"></span>
+              </div>
+              <div class="gallery-item-images">
+                <img
+                  src="./assets/gallery/pigeon/1.jpg"
+                  alt="Gallery 1"
+                  class="gallery-img gallery-img-left-1"
+                  data-modal-src="./assets/gallery/pigeon/1.jpg"
+                />
+                <img
+                  src="./assets/gallery/pigeon/2.jpg"
+                  alt="Gallery 2"
+                  class="gallery-img gallery-img-left-2"
+                  data-modal-src="./assets/gallery/pigeon/2.jpg"
+                />
+                <img
+                  src="./assets/gallery/pigeon/3.jpg"
+                  alt="Gallery 3"
+                  class="gallery-img gallery-img-right-1"
+                  data-modal-src="./assets/gallery/pigeon/3.jpg"
+                />
+                <img
+                  src="./assets/gallery/pigeon/4.jpg"
+                  alt="Gallery 4"
+                  class="gallery-img gallery-img-right-2"
+                  data-modal-src="./assets/gallery/pigeon/4.jpg"
+                />
+                <img
+                  src="./assets/gallery/pigeon/5.jpg"
+                  alt="Gallery 5"
+                  class="gallery-img gallery-img-right-3"
+                  data-modal-src="./assets/gallery/pigeon/5.jpg"
+                />
+              </div>
+            </article>
+            <article class="gallery-item">
+              <div class="gallery-header">
+                <div>
+                  <span
+                    class="text-700-12-blue"
+                    data-i18n="gallery.album2"
+                  ></span>
+                </div>
+                <span class="text-700-12-blue" data-i18n="gallery.year2"></span>
+              </div>
+              <div class="gallery-item-images">
+                <img
+                  src="./assets/gallery/cat/1.jpg"
+                  alt="Gallery 1"
+                  class="gallery-img gallery-img-left-1"
+                  data-modal-src="./assets/gallery/cat/1.jpg"
+                />
+                <img
+                  src="./assets/gallery/cat/2.jpg"
+                  alt="Gallery 2"
+                  class="gallery-img gallery-img-left-2"
+                  data-modal-src="./assets/gallery/cat/2.jpg"
+                />
+                <img
+                  src="./assets/gallery/cat/3.jpg"
+                  alt="Gallery 3"
+                  class="gallery-img gallery-img-right-1"
+                  data-modal-src="./assets/gallery/cat/3.jpg"
+                />
+                <img
+                  src="./assets/gallery/cat/4.jpg"
+                  alt="Gallery 4"
+                  class="gallery-img gallery-img-right-2"
+                  data-modal-src="./assets/gallery/cat/4.jpg"
+                />
+                <img
+                  src="./assets/gallery/cat/5.jpg"
+                  alt="Gallery 5"
+                  class="gallery-img gallery-img-right-3"
+                  data-modal-src="./assets/gallery/cat/5.jpg"
+                />
+              </div>
+            </article>
+            <article class="gallery-item">
+              <div class="gallery-header">
+                <div>
+                  <span
+                    class="text-700-12-blue"
+                    data-i18n="gallery.album1"
+                  ></span>
+                </div>
+                <span class="text-700-12-blue" data-i18n="gallery.year1"></span>
+              </div>
+              <div class="gallery-item-images">
+                <img
+                  src="./assets/gallery/pigeon/1.jpg"
+                  alt="Gallery 1"
+                  class="gallery-img gallery-img-left-1"
+                  data-modal-src="./assets/gallery/pigeon/1.jpg"
+                />
+                <img
+                  src="./assets/gallery/pigeon/2.jpg"
+                  alt="Gallery 2"
+                  class="gallery-img gallery-img-left-2"
+                  data-modal-src="./assets/gallery/pigeon/2.jpg"
+                />
+                <img
+                  src="./assets/gallery/pigeon/3.jpg"
+                  alt="Gallery 3"
+                  class="gallery-img gallery-img-right-1"
+                  data-modal-src="./assets/gallery/pigeon/3.jpg"
+                />
+                <img
+                  src="./assets/gallery/pigeon/4.jpg"
+                  alt="Gallery 4"
+                  class="gallery-img gallery-img-right-2"
+                  data-modal-src="./assets/gallery/pigeon/4.jpg"
+                />
+                <img
+                  src="./assets/gallery/pigeon/5.jpg"
+                  alt="Gallery 5"
+                  class="gallery-img gallery-img-right-3"
+                  data-modal-src="./assets/gallery/pigeon/5.jpg"
+                />
+              </div>
+            </article>
+            <article class="gallery-item">
+              <div class="gallery-header">
+                <div>
+                  <span
+                    class="text-700-12-blue"
+                    data-i18n="gallery.album1"
+                  ></span>
+                </div>
+                <span class="text-700-12-blue" data-i18n="gallery.year1"></span>
+              </div>
+              <div class="gallery-item-images">
+                <img
+                  src="./assets/gallery/pigeon/1.jpg"
+                  alt="Gallery 1"
+                  class="gallery-img gallery-img-left-1"
+                  data-modal-src="./assets/gallery/pigeon/1.jpg"
+                />
+                <img
+                  src="./assets/gallery/pigeon/2.jpg"
+                  alt="Gallery 2"
+                  class="gallery-img gallery-img-left-2"
+                  data-modal-src="./assets/gallery/pigeon/2.jpg"
+                />
+                <img
+                  src="./assets/gallery/pigeon/3.jpg"
+                  alt="Gallery 3"
+                  class="gallery-img gallery-img-right-1"
+                  data-modal-src="./assets/gallery/pigeon/3.jpg"
+                />
+                <img
+                  src="./assets/gallery/pigeon/4.jpg"
+                  alt="Gallery 4"
+                  class="gallery-img gallery-img-right-2"
+                  data-modal-src="./assets/gallery/pigeon/4.jpg"
+                />
+                <img
+                  src="./assets/gallery/pigeon/5.jpg"
+                  alt="Gallery 5"
+                  class="gallery-img gallery-img-right-3"
+                  data-modal-src="./assets/gallery/pigeon/5.jpg"
+                />
+              </div>
+            </article>
+          </div>
+
+          <div class="carousel-controls">
+            <button
+              class="carousel-button prev"
+              type="button"
+              aria-label="Previous gallery"
+            >
+              ←
+            </button>
+            <button
+              class="carousel-button next"
+              type="button"
+              aria-label="Next gallery"
+            >
+              →
+            </button>
+          </div>
+        </div>
+      </section>
       <section id="contact" class="section"></section>
     </main>
+    <div id="imageModal" class="modal">
+      <div class="modal-content">
+        <button class="modal-close" aria-label="Close modal">&times;</button>
+        <img id="modalImage" src="" alt="Full size image" class="modal-img" />
+      </div>
+    </div>
     <script src="scripts/constants.js"></script>
     <script src="scripts/translation.js"></script>
     <script src="scripts/scroll-experiences.js"></script>
     <script src="scripts/scroll-projects.js"></script>
+    <script src="scripts/scroll-gallery.js"></script>
+    <script src="scripts/modal.js"></script>
     <script src="scripts/scroll-page.js"></script>
   </body>
 </html>
