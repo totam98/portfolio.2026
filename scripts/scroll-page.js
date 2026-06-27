@@ -87,12 +87,6 @@ document.addEventListener("DOMContentLoaded", () => {
       mobileMenu.setAttribute("aria-hidden", String(!isOpen));
     });
 
-    mobileMenu.addEventListener("click", (event) => {
-      if (event.target.closest(".nav a.nav-link")) {
-        closeMobileMenu();
-      }
-    });
-
     document.addEventListener("click", (event) => {
       if (
         mobileMenu.classList.contains("active") &&

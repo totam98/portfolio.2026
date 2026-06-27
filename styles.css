@@ -17,6 +17,10 @@ p {
   font-weight: 700;
 }
 
+.mobile-nav a.active {
+  font-weight: 400;
+}
+
 /* Font */
 .text-700-12-blue {
   font-size: 12px;
@@ -26,6 +30,11 @@ p {
 .text-700-18-blue {
   font-size: 18px;
   font-weight: 700;
+  color: #416278;
+}
+.text-400-14-blue {
+  font-size: 14px;
+  font-weight: 400;
   color: #416278;
 }
 .text-400-16-gray {
@@ -40,15 +49,15 @@ p {
   font-style: italic;
   color: #5784ba;
 }
-.text-700-24-blue-playfair {
-  font-size: 24px;
+.text-700-18-blue-playfair {
+  font-size: 18px;
   font-weight: 700;
   color: #416278;
   text-transform: uppercase;
   font-family: "Playfair Display", serif;
 }
-.text-700-24-playfair {
-  font-size: 24px;
+.text-700-18-playfair {
+  font-size: 18px;
   font-weight: 700;
   text-transform: uppercase;
   font-family: "Playfair Display", serif;
@@ -105,7 +114,7 @@ p {
 }
 .nav a {
   text-decoration: none;
-  color: #333;
+  color: #416278;
 }
 .burger-button {
   display: none;
@@ -158,37 +167,35 @@ p {
   display: none;
   position: absolute;
   top: 100%;
-  left: 0;
   right: 0;
-  background: #ffffff;
-  border-bottom: 1px solid #5784ba;
+  background: white;
+  border: 1px solid #5784ba;
   box-shadow: 0 20px 40px rgba(65, 98, 120, 0.08);
-  padding: 20px;
   flex-direction: column;
-  gap: 20px;
+  width: 250px;
+  text-align: center;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
 }
 .mobile-menu.active {
   display: flex;
 }
 .mobile-menu .nav {
   flex-direction: column;
-  gap: 16px;
+  gap: 0;
 }
-.mobile-menu .language-switcher {
-  font-size: 14px;
-  display: flex;
-  gap: 8px;
+.mobile-menu .nav a {
+  display: block;
+  width: 100%;
+  padding: 10px 0;
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease;
 }
-.mobile-actions {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 12px;
+.mobile-menu .nav a:hover {
+  background-color: #edf2fa;
 }
-.mobile-cta {
-  display: inline-block;
-}
+
 .language-switcher {
   font-size: 14px;
   cursor: pointer;
@@ -203,10 +210,7 @@ p {
     gap: 16px;
   }
 
-  .header-functions > span,
-  .language-switcher,
-  .night-mode,
-  .cta {
+  .header-functions > span {
     display: none;
   }
 
@@ -236,16 +240,10 @@ p {
     display: flex;
     justify-content: flex-start;
   }
-
-  .mobile-menu .mobile-cta {
-    display: inline-flex;
-    justify-content: center;
-    width: 50%;
-  }
 }
 
 .language-switcher .lang.active {
-  font-weight: bold;
+  font-weight: 700;
 }
 .title {
   display: flex;
@@ -259,7 +257,9 @@ p {
 .cta {
   color: #fff;
   background: #b6d8f2;
-  padding: 8px 12px;
+  width: 100px;
+  text-align: center;
+  padding: 8px 0;
   border-radius: 4px;
   border: none;
   text-decoration: none;
@@ -300,6 +300,21 @@ p {
 .about-right {
   width: 45%;
   padding: 20px;
+}
+@media (max-width: 900px) {
+  .about-content {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .about-left,
+  .about-right {
+    width: 100%;
+  }
+
+  .about-right {
+    padding: 0;
+  }
 }
 .education {
   display: flex;
@@ -504,10 +519,6 @@ p {
     padding: 0 8px;
   }
 
-  .carousel-button {
-    display: none;
-  }
-
   .experience-list {
     padding-left: 8px;
     padding-right: 8px;
@@ -627,10 +638,6 @@ p {
 @media (max-width: 640px) {
   .project-carousel {
     padding: 0 8px;
-  }
-
-  .carousel-button {
-    display: none;
   }
 
   .project-list {
