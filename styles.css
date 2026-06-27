@@ -479,8 +479,12 @@ p {
   gap: 20px;
 }
 .edu-item {
+  display: block;
   padding: 18px 20px;
   border-radius: 18px;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
   transition:
     background-color 0.25s ease,
     transform 0.25s ease;
