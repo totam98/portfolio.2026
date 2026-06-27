@@ -88,15 +88,23 @@ const TRANSLATIONS = {
     "project.name1": "Vivre sans les Chaebols",
     "project.type1": "DOCUMENTAIRE / WEB INTERACTIF",
     "project.description1":
-      "Conception d'un web-documentaire majeur (Master M2). En charge de la recherche documentaire thématique et de la rédaction globale des contenus du site interactif.",
-    "project.name1": "Vivre sans les Chaebols",
-    "project.type1": "DOCUMENTAIRE / WEB INTERACTIF",
-    "project.description1":
-      "Conception d'un web-documentaire majeur (Master M2). En charge de la recherche documentaire thématique et de la rédaction globale des contenus du site interactif.",
-    "project.name2": "Web documentaire sonore",
-    "project.type2": "DOCUMENTAIRE / WEB INTERACTIF",
+      "Il s'agit d'un projet de film documentaire associé à un site web interactif, l'un des deux projets principaux de la deuxième année du Master Cultures et Métiers du Web. J'y ai participé en tant que responsable de la recherche documentaire relative au thème principal du film et en tant que rédactrice du contenu du site web.",
+    "project.name2": "AudioGeoMap",
+    "project.type2": "WEB DOCUMENTAIRE SONORE",
     "project.description2":
-      "Conception d'un web-documentaire documentaire sonore pour l’UFR Géographie (UGE). En charge de rédaction de contenu et design user interface du site interactif.",
+      "Conception d'un web-documentaire documentaire sonore pour l'UFR Géographie (UGE). En charge de rédaction de contenu et design user interface du site",
+    "project.name3": "La grève de l'ORTF",
+    "project.type3": "VIDEO DOCUMENTAIRE",
+    "project.description3":
+      "Au sein du cour de montage, en tant qu'éditeur, je travaille en collaboration avec Amélie Vergnaud pour réaliser (l'atelier de vidéo) ",
+    "project.name4": "MadAtlas",
+    "project.type4": "DESIGN GRAPHIQUE",
+    "project.description4":
+      "Création de l'identité visuelle et du logo pour une plateforme de cartographie géographique. Conception d'un système graphique complet incluant typographie, palette de couleurs, icônes sur mesure et déclinaisons du logo en différents formats.",
+    "project.name5": "WindMap wearther app",
+    "project.type5": "UI GRAPHIQUE",
+    "project.description5":
+      "Conception de l'identité visuelle et du logo pour une application mobile dédiée à la météo et au milieu marin. Élaboration de la direction artistique complète, incluant les palettes de couleurs, la typographie et une iconographie sur mesure optimisée pour les interfaces mobiles, les widgets et les icônes d'application.",
     "gallery.title": "ESPACE GALLERIE",
     "gallery.subtitle": "À travers mes yeux et mon objectif",
     "gallery.album1": "Pigeons dans le jardin",
@@ -223,7 +231,23 @@ const TRANSLATIONS = {
     "project.name1": "Living without the Chaebols",
     "project.type1": "DOCUMENTARY / INTERACTIVE WEBSITE",
     "project.description1":
-      "Designed a major web-documentary (Master M2). Responsible for thematic documentary research and overall content writing for the interactive website.",
+      "This is a documentary film project associated with an interactive website, one of the two main projects of the second year of the Master's program in Web Cultures and Professions. I participated as the lead researcher for the documentary's main theme and as the content writer for the website.",
+    "project.name2": "AudioGeoMap",
+    "project.type2": "SOUND WEB DOCUMENTARY",
+    "project.description2":
+      "Designing a sound web documentary for the UFR Geography (UGE). Responsible for content writing and user interface design of the website.",
+    "project.name3": "The ORTF Strike",
+    "project.type3": "DOCUMENTARY VIDEO",
+    "project.description3":
+      "Within the editing course, as an editor, I collaborated with Amélie Vergnaud to produce (the video workshop).",
+    "project.name4": "MadAtlas",
+    "project.type4": "GRAPHIC DESIGN",
+    "project.description4":
+      "Creating the visual identity and logo for a geographic mapping platform. Designed a complete graphic system including typography, color palette, custom icons, and logo variations in different formats.",
+    "project.name5": "WindMap weather app",
+    "project.type5": "GRAPHIC UI DESIGN",
+    "project.description5":
+      "Designing the visual identity and logo for a mobile application dedicated to weather and marine environments. Developed a comprehensive artistic direction, including color palettes, typography, and custom iconography optimized for mobile interfaces, widgets, and app icons.",
     "gallery.title": "GALLERY SPACE",
     "gallery.subtitle": "Through my eyes and my lens",
     "gallery.album1": "Pigeons in the garden",
