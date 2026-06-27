@@ -6,7 +6,7 @@ const TRANSLATIONS = {
     "nav.gallery": "Galerie",
     "nav.contact": "Contact",
     "cta.download": "Télécharger CV",
-    "about.title": "UNE ÉTUDIANTE VIETNAMIENNE EN FRANCE",
+    "about.title": "FAISONS CONNAISSANCE",
     "about.name": "NGUYEN Thi To Tam",
     "about.education": "FORMATION",
     "about.years1": "2024 — 2026",
@@ -27,27 +27,78 @@ const TRANSLATIONS = {
       "Communications specialist - Content Writer - Conceptrice interactive",
     "about.description2":
       "Je suis un étudiant en dernière année du Master Cultures et métiers du web, spécialisé dans l'intersection entre le documentaire et les interfaces interactives. Mon travail vise à simplifier le complexe et à mettre en lumière ce qui est souvent négligé.",
-    "exp.title": "CARRIÈRE",
-    "exp.subtitle": "Expérience professionnelle",
+    "exp.title": "ENGAGEMENTS",
+    "exp.subtitle": "Là où j'ai apporté ma pierre",
     "exp.type1": "ALTERNANCE",
     "exp.type2": "STAGE",
-    "exp.name1": "Digital Communication Officer",
+    "exp.name1": "Chargée de Communication",
+    "exp.company1": "PMP Diffusion",
     "exp.description1":
-      "Déploiement de stratégies marketing multicanal et gestion de contenu e-commerce (PrestaShop). Création et optimisation d'actifs numériques, suivi des KPI et recommandations UX pour améliorer les parcours utilisateurs.",
-    "exp.more1-1": "Digital Communication Officer (apprenticeship).",
+      "Pilotage de la stratégie marketing et de la performance e-commerce pour dynamiser l'activité commerciale. Focus sur l'optimisation continue de l'expérience utilisateur (UX) et la visibilité en ligne.",
+    "exp.more1-1":
+      "Déploiement et suivi de stratégies webmarketing multicanales à fort impact commercial.",
     "exp.more1-2":
-      "Deployed multi-channel marketing strategies and managed e-commerce content (PrestaShop).",
+      "Gestion, animation et optimisation SEO/UX d'une plateforme e-commerce sous Prestashop.",
     "exp.more1-3":
-      "Created and optimized digital assets, monitored KPIs, and delivered UX recommendations to enhance user journeys.",
-    "exp.years1": "2022 — Présent",
+      "Création de contenus digitaux et analyse hebdomadaire des performances social media.",
+    "exp.years1": "Septembre 2021 - Avril 2023",
+    "exp.name2": "Assistante Projet Digital & Rédaction Web",
+    "exp.company2": "NetDevices",
+    "exp.description2":
+      "Accompagnement d'une agence web dans la conception de stratégies de contenu et l'optimisation du référencement naturel. Approche centrée sur la clarté éditoriale et la performance technique.",
+    "exp.more2-1":
+      "Rédaction et structuration de contenus éditoriaux web optimisés pour le SEO.",
+    "exp.more2-2":
+      "Administration, mise à jour et gestion technique de sites sous WordPress.",
+    "exp.more2-3":
+      "Suivi rigoureux des indicateurs de performance (KPIs) de trafic et d'engagement.",
+    "exp.years2": "Mars - Août 2021",
+    "exp.name3": "Assistante Communication Digitale",
+    "exp.company3": "Com Advisor",
+    "exp.description3":
+      "Création de contenus multi-supports alignés avec les objectifs business des clients de l'agence. Gestion de communauté et veille stratégique pour maximiser l'engagement.",
+    "exp.more3-1":
+      "Conception de contenus éditoriaux et visuels orientés conversion pour les clients.",
+    "exp.more3-2": "Planification éditoriale et animation des réseaux sociaux.",
+    "exp.more3-3":
+      "Réalisation de veilles concurrentielles et sectorielles pour anticiper les tendances.",
+    "exp.years3": "Janvier - Mars 2020",
+    "exp.name4": "Chargée de Communication",
+    "exp.company4": "Association SOS Aide aux habitants 67",
+    "exp.description4":
+      "Valorisation des actions de l'association à travers le développement d'une communication visuelle et événementielle de proximité.",
+    "exp.more4-1":
+      "Création de supports visuels print et digitaux (photos, vidéos).",
+    "exp.more4-2":
+      "Élaboration et déploiement de plans de communication globale.",
+    "exp.more4-3":
+      "Organisation d'événements et gestion de la communication en ligne.",
+    "exp.years4": "Avril - Juin 2019",
+    "exp.name5": "Assistante Graphique",
+    "exp.company5": "Expert Flow Control Management",
+    "exp.description5":
+      "Modernisation de la présence en ligne de l'entreprise à travers la création d'identités visuelles et la mise à jour des supports web.",
+    "exp.more5-1":
+      "Conception de visuels et d'affiches optimisés pour l'intégration web.",
+    "exp.more5-2":
+      "Maintenance et mise à jour courante du site internet de l'entreprise.",
+    "exp.years5": "Juin - Juillet 2018",
     "project.title": "CRÉATION NUMÉRIQUE",
-    "project.subtitle": "Projets sélectionnés",
+    "project.subtitle": "Ce que j'ai façonné",
     "project.name1": "Vivre sans les Chaebols",
     "project.type1": "DOCUMENTAIRE / WEB INTERACTIF",
     "project.description1":
       "Conception d'un web-documentaire majeur (Master M2). En charge de la recherche documentaire thématique et de la rédaction globale des contenus du site interactif.",
-    "gallery.title": "ÉTUDES VISUELLES",
-    "gallery.subtitle": "Albums photo",
+    "project.name1": "Vivre sans les Chaebols",
+    "project.type1": "DOCUMENTAIRE / WEB INTERACTIF",
+    "project.description1":
+      "Conception d'un web-documentaire majeur (Master M2). En charge de la recherche documentaire thématique et de la rédaction globale des contenus du site interactif.",
+    "project.name2": "Web documentaire sonore",
+    "project.type2": "DOCUMENTAIRE / WEB INTERACTIF",
+    "project.description2":
+      "Conception d'un web-documentaire documentaire sonore pour l’UFR Géographie (UGE). En charge de rédaction de contenu et design user interface du site interactif.",
+    "gallery.title": "ESPACE GALLERIE",
+    "gallery.subtitle": "À travers mes yeux et mon objectif",
     "gallery.album1": "Pigeons dans le jardin",
     "gallery.year1": "2022",
     "gallery.album2": "Chats dans le jardin",
@@ -90,7 +141,7 @@ const TRANSLATIONS = {
     "nav.gallery": "Gallery",
     "nav.contact": "Contact",
     "cta.download": "Download CV",
-    "about.title": "A VIETNAMESE STUDENT IN FRANCE",
+    "about.title": "LET'S GET TO KNOW EACH OTHER",
     "about.name": "NGUYEN Thi To Tam",
     "about.education": "EDUCATION",
     "about.years1": "2024 — 2026",
@@ -110,27 +161,71 @@ const TRANSLATIONS = {
       "Communications specialist - Content Writer - Conceptrice interactive",
     "about.description2":
       "I am a final-year Master's student in Web Cultures and Professions, specializing in the intersection of documentary and interactive interfaces. My work aims to simplify the complex and shed light on what is often overlooked.",
-    "exp.title": "CAREER",
-    "exp.subtitle": "Professional Experience",
+    "exp.title": "ENGAGEMENTS",
+    "exp.subtitle": "Where I contributed my part",
     "exp.type1": "APPRENTICESHIP",
     "exp.type2": "INTERNSHIP",
-    "exp.name1": "Digital Communication Officer",
+    "exp.name1": "Communications Manager",
+    "exp.company1": "PMP Diffusion",
     "exp.description1":
-      "Deployed multi-channel marketing strategies and managed e-commerce content (PrestaShop). Created and optimized digital assets, monitored KPIs, and delivered UX recommendations to enhance user journeys.",
-    "exp.more1-1": "Digital Communication Officer (apprenticeship).",
+      "Driving marketing strategy and e-commerce performance to boost business growth. Focused on continuous user experience (UX) optimization and online visibility.",
+    "exp.more1-1":
+      "Successfully deployed and monitored multichannel webmarketing strategies with high commercial impact.",
     "exp.more1-2":
-      "Deployed multi-channel marketing strategies and managed e-commerce content (PrestaShop).",
+      "Managed, updated, and optimized SEO/UX for a Prestashop-based e-commerce platform.",
     "exp.more1-3":
-      "Created and optimized digital assets, monitored KPIs, and delivered UX recommendations to enhance user journeys.",
-    "exp.years1": "2022 — Present",
+      "Created digital content and delivered weekly performance analytics for social media.",
+    "exp.years1": "September 2021 - April 2023",
+    "exp.name2": "Digital Project & Web Copywriting Assistant",
+    "exp.company2": "NetDevices",
+    "exp.description2":
+      "Assisting a web agency in designing content strategies and maximizing organic search rankings. Focused on editorial clarity and technical performance.",
+    "exp.more2-1":
+      "Wrote and structured web content optimized for SEO rankings.",
+    "exp.more2-2":
+      " Administered, updated, and managed technical maintenance for WordPress websites.",
+    "exp.more2-3":
+      "Rigorously tracked key performance indicators (KPIs) for web traffic and user engagement.",
+    "exp.years2": "March - August 2021",
+    "exp.name3": "ADigital Communications Assistant",
+    "exp.company3": "Com Advisor",
+    "exp.description3":
+      "Creating multi-platform content aligned with clients' business objectives. Managing community engagement and conducting strategic market analysis.",
+    "exp.more3-1":
+      "Designed conversion-oriented editorial and visual content for agency clients.",
+    "exp.more3-2":
+      "Planned editorial calendars and managed social media communities.",
+    "exp.more3-3":
+      "Conducted competitive and industry-specific market monitoring to anticipate trends.",
+    "exp.years3": "January - March 2020",
+    "exp.name4": "Communications Officer",
+    "exp.company4": "Association SOS Aide aux habitants 67",
+    "exp.description4":
+      "Enhancing the association's visibility through the development of local visual and event-driven communication.",
+    "exp.more4-1":
+      "Created print and digital visual assets, including photography and video production.",
+    "exp.more4-2":
+      " Developed and deployed comprehensive, large-scale communication plans.",
+    "exp.more4-3":
+      "Organized local events and managed online community presence.",
+    "exp.years4": "April - June 2019",
+    "exp.name5": "Graphic Design Assistant",
+    "exp.company5": "Expert Flow Control Management",
+    "exp.description5":
+      "Modernizing the company's online presence through visual identity design and web asset updates.",
+    "exp.more5-1":
+      "Designed visuals and banners optimized for web integration.",
+    "exp.more5-2":
+      "Handled routine maintenance and updates for the corporate website.",
+    "exp.years5": "June - July 2018",
     "project.title": "DIGITAL CREATION",
-    "project.subtitle": "Selected Projects",
+    "project.subtitle": "What I have shaped",
     "project.name1": "Living without the Chaebols",
     "project.type1": "DOCUMENTARY / INTERACTIVE WEBSITE",
     "project.description1":
       "Designed a major web-documentary (Master M2). Responsible for thematic documentary research and overall content writing for the interactive website.",
-    "gallery.title": "VISUAL STUDIES",
-    "gallery.subtitle": "Photo Albums",
+    "gallery.title": "GALLERY SPACE",
+    "gallery.subtitle": "Through my eyes and my lens",
     "gallery.album1": "Pigeons in the garden",
     "gallery.year1": "2022",
     "gallery.album2": "Cats in the garden",

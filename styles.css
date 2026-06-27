@@ -191,6 +191,13 @@ p {
   color: #416278;
 }
 
+.text-600-14-gray-italic {
+  font-size: 14px;
+  font-weight: 600;
+  color: #42474c;
+  font-style: italic;
+}
+
 /* Header */
 .header-inner {
   display: flex;
