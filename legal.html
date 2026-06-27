@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Legal Notice</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,700;1,300&family=Inter:wght@300;400;600&family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/png" href="assets/img/logo.png" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-inner">
+        <div class="title">
+          <img src="./assets/img/logo.png" alt="Logo" class="logo" />
+          <span class="text-700-18-playfair"
+            >tam <span class="text-700-18-blue-playfair">portfolio</span></span
+          >
+        </div>
+        <div class="header-functions">
+          <button
+            class="close-button"
+            type="button"
+            onclick="window.location.href = 'index.html'"
+          >
+            <img src="./assets/img/close.png" alt="Close" />
+          </button>
+          <div
+            class="language-switcher"
+            aria-label="Language switcher"
+            style="display: none"
+          >
+            <span class="lang" data-lang="fr" role="button" tabindex="0"
+              >FR</span
+            >
+            <span aria-hidden="true">|</span>
+            <span class="lang" data-lang="en" role="button" tabindex="0"
+              >EN</span
+            >
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="legal-section">
+        <span class="text-700-12-blue" data-i18n="legal.title"></span>
+        <span
+          class="text-600-32-blue-playfair"
+          data-i18n="legal.subtitle"
+        ></span>
+        <div class="legal-content">
+          <div class="legal-block">
+            <span class="text-700-18-blue" data-i18n="legal.editorTitle"></span>
+            <p class="text-400-16-gray">
+              <span data-i18n="legal.editorLine1"></span>
+              <a
+                href="https://totam98.github.io/portfolio.2026/"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-i18n="legal.editorLink"
+              ></a>
+              <span data-i18n="legal.editorLine2"></span>
+            </p>
+            <p class="text-400-16-gray" data-i18n="legal.editorName"></p>
+            <p class="text-400-16-gray" data-i18n="legal.editorEmail"></p>
+          </div>
+          <div class="legal-block">
+            <span class="text-700-18-blue" data-i18n="legal.hostTitle"></span>
+            <p class="text-400-16-gray" data-i18n="legal.hostName"></p>
+            <p class="text-400-16-gray">
+              <span data-i18n="legal.hostWebsiteLabel"></span>
+              <a
+                href="https://github.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-i18n="legal.hostWebsite"
+              ></a>
+            </p>
+            <p class="text-400-16-gray" data-i18n="legal.hostAddress"></p>
+            <p class="text-400-16-gray">
+              <span data-i18n="legal.hostContactLabel"></span>
+              <a
+                href="https://support.github.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-i18n="legal.hostContactLink"
+              ></a>
+            </p>
+          </div>
+          <div class="legal-block">
+            <span
+              class="text-700-18-blue"
+              data-i18n="legal.aiPolicyTitle"
+            ></span>
+            <p class="text-400-16-gray" data-i18n="legal.aiPolicyText"></p>
+          </div>
+          <div class="legal-block">
+            <span
+              class="text-700-18-blue"
+              data-i18n="legal.intellectualPropertyTitle"
+            ></span>
+            <p
+              class="text-400-16-gray"
+              data-i18n="legal.intellectualPropertyText"
+            ></p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="scripts/constants.js"></script>
+    <script src="scripts/translation.js"></script>
+  </body>
+</html>
