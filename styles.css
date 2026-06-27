@@ -133,6 +133,13 @@ p {
   font-weight: 700;
   color: #5784ba;
 }
+.text-400-16-blue-playfair-italic {
+  font-size: 16px;
+  font-weight: 400;
+  color: #5784ba;
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+}
 .text-700-18-blue {
   font-size: 18px;
   font-weight: 700;
@@ -1061,9 +1068,6 @@ p {
 
 /* Footer */
 .site-footer {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
   padding: 10px;
   color: #1a1c1d;
   font-size: 10px;
