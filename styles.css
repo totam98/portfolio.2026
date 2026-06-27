@@ -9,6 +9,112 @@ html {
   scroll-behavior: smooth;
 }
 
+body.night-mode-active {
+  background: #141414;
+  color: #e5e7eb;
+}
+
+body.night-mode-active .site-header,
+body.night-mode-active .modal-content,
+body.night-mode-active .project-carousel,
+body.night-mode-active .gallery-carousel,
+body.night-mode-active .experience-carousel {
+  background: transparent;
+}
+
+body.night-mode-active .section {
+  border-color: #334155;
+}
+
+body.night-mode-active .site-header {
+  background: rgba(15, 23, 42, 0.95);
+}
+
+body.night-mode-active .nav a,
+body.night-mode-active .mobile-nav a,
+body.night-mode-active .text-400-16-gray,
+body.night-mode-active p,
+body.night-mode-active span,
+body.night-mode-active h1,
+body.night-mode-active h2,
+body.night-mode-active h3,
+body.night-mode-active h4,
+body.night-mode-active h5,
+body.night-mode-active h6,
+body.night-mode-active .project-link,
+body.night-mode-active .contact-link,
+body.night-mode-active .text-700-16-playfair {
+  color: #e2e8f0;
+}
+
+body.night-mode-active .text-700-12-blue,
+body.night-mode-active .text-700-18-blue,
+body.night-mode-active .text-400-14-blue,
+body.night-mode-active .text-400-10-blue,
+body.night-mode-active .text-400-40-blue-playfair-italic,
+body.night-mode-active .text-700-16-blue-playfair,
+body.night-mode-active .text-700-48-blue-playfair,
+body.night-mode-active .text-600-32-blue-playfair,
+body.night-mode-active .text-400-24-blue {
+  color: #9ac5ff;
+}
+
+body.night-mode-active .experience-item,
+body.night-mode-active .project-item,
+body.night-mode-active .gallery-item,
+body.night-mode-active .about-left,
+body.night-mode-active .about-right,
+body.night-mode-active .contact-item,
+body.night-mode-active .modal {
+  background: #111827;
+  border-color: #334155;
+}
+
+body.night-mode-active .carousel-button,
+body.night-mode-active .cta {
+  background: #1d4ed8;
+  color: #ffffff;
+  border-color: #1d4ed8;
+}
+
+body.night-mode-active .cta:hover {
+  background: #2563eb;
+}
+
+body.night-mode-active .project-link {
+  color: #bfdbfe;
+}
+
+body.night-mode-active main a {
+  color: #93c5fd;
+}
+
+body.night-mode-active main a:hover {
+  color: #dbeafe;
+}
+
+body.night-mode-active .edu-item:hover {
+  background: #181f25;
+}
+
+body.night-mode-active .mobile-menu {
+  background: #141414;
+}
+
+body.night-mode-active .mobile-menu .nav a:hover {
+  background: #181f25;
+}
+
+body.night-mode-active .burger-button.active span {
+  background: transparent;
+}
+
+body.night-mode-active .burger-button span,
+body.night-mode-active .burger-button span::before,
+body.night-mode-active .burger-button span::after {
+  background: #ffffff;
+}
+
 p {
   margin: 0;
 }
@@ -49,15 +155,15 @@ p {
   font-style: italic;
   color: #5784ba;
 }
-.text-700-18-blue-playfair {
-  font-size: 18px;
+.text-700-16-blue-playfair {
+  font-size: 16px;
   font-weight: 700;
   color: #416278;
   text-transform: uppercase;
   font-family: "Playfair Display", serif;
 }
-.text-700-18-playfair {
-  font-size: 18px;
+.text-700-16-playfair {
+  font-size: 16px;
   font-weight: 700;
   text-transform: uppercase;
   font-family: "Playfair Display", serif;
@@ -105,7 +211,7 @@ p {
 .header-functions {
   display: flex;
   align-items: center;
-  gap: 30px;
+  gap: 20px;
 }
 .nav {
   display: flex;
@@ -115,6 +221,17 @@ p {
 .nav a {
   text-decoration: none;
   color: #416278;
+}
+.night-mode {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.night-mode-icon {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
 }
 .burger-button {
   display: none;
@@ -193,8 +310,6 @@ p {
   flex-direction: column;
   width: 250px;
   text-align: center;
-  border-bottom-left-radius: 12px;
-  border-bottom-right-radius: 12px;
 }
 .mobile-menu.active {
   display: flex;
@@ -226,7 +341,7 @@ p {
   }
 
   .header-functions {
-    gap: 16px;
+    gap: 10px;
   }
 
   .header-functions > span {
@@ -557,7 +672,6 @@ p {
   overflow-y: hidden;
   scroll-snap-type: x mandatory;
   -webkit-overflow-scrolling: touch;
-  touch-action: pan-y;
   cursor: grab;
   padding-bottom: 10px;
 }
@@ -686,7 +800,6 @@ p {
   overflow-y: hidden;
   scroll-snap-type: x mandatory;
   -webkit-overflow-scrolling: touch;
-  touch-action: pan-y;
   cursor: grab;
   padding-bottom: 10px;
 }

@@ -62,7 +62,7 @@ const TRANSLATIONS = {
     "footer.legal": "Mentions légales",
     "legal.title": "MENTIONS LÉGALES",
     "legal.subtitle": "Informations légales du site",
-    "legal.editorTitle": "L'éditeur du site :",
+    "legal.editorTitle": "L'éditeur du site",
     "legal.editorLine1": "Le site ",
     "legal.editorLine2": " est édité par :",
     "legal.editorLink": "https://totam98.github.io/portfolio.2026/",
@@ -72,13 +72,16 @@ const TRANSLATIONS = {
     "legal.hostName": "Nom : GitHub, Inc.",
     "legal.hostWebsiteLabel": "Site web : ",
     "legal.hostWebsite": "github.com",
-    "legal.hostAddress": "Adresse : 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, États-Unis.",
+    "legal.hostAddress":
+      "Adresse : 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, États-Unis.",
     "legal.hostContactLabel": "Contact : ",
     "legal.hostContactLink": "support.github.com",
     "legal.aiPolicyTitle": "La politique d'utilisation de l'IA",
-    "legal.aiPolicyText": "Le code de ce site a été développé avec l'aide de l'outil d'auto-complétion de code (GitHub Copilot) de manière raisonnée pour assister le développement et optimiser la saisie du code HTML, CSS et JavaScript.",
+    "legal.aiPolicyText":
+      "Le code de ce site a été développé avec l'aide de l'outil d'auto-complétion de code (GitHub Copilot) de manière raisonnée pour assister le développement et optimiser la saisie du code HTML, CSS et JavaScript.",
     "legal.intellectualPropertyTitle": "Propriété intellectuelle",
-    "legal.intellectualPropertyText": "L'ensemble des contenus présents sur ce site (textes, photographies, images, designs, et réalisations) est, sauf mention contraire, la propriété exclusive de NGUYEN Thi To Tam. Toute reproduction ou représentation totale ou partielle de ce site, par quelque procédé que ce soit, est interdite sans autorisation préalable.",
+    "legal.intellectualPropertyText":
+      "L'ensemble des contenus présents sur ce site (textes, photographies, images, designs, et réalisations) est, sauf mention contraire, la propriété exclusive de NGUYEN Thi To Tam. Toute reproduction ou représentation totale ou partielle de ce site, par quelque procédé que ce soit, est interdite sans autorisation préalable.",
   },
   en: {
     "nav.about": "About",
@@ -142,7 +145,7 @@ const TRANSLATIONS = {
     "footer.legal": "Legal Notice",
     "legal.title": "LEGAL NOTICE",
     "legal.subtitle": "Website legal information",
-    "legal.editorTitle": "Site publisher:",
+    "legal.editorTitle": "Site publisher",
     "legal.editorLine1": "The site ",
     "legal.editorLine2": " is published by:",
     "legal.editorLink": "https://totam98.github.io/portfolio.2026/",
@@ -152,13 +155,16 @@ const TRANSLATIONS = {
     "legal.hostName": "Name: GitHub, Inc.",
     "legal.hostWebsiteLabel": "Website: ",
     "legal.hostWebsite": "github.com",
-    "legal.hostAddress": "Address: 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, United States.",
+    "legal.hostAddress":
+      "Address: 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, United States.",
     "legal.hostContactLabel": "Contact: ",
     "legal.hostContactLink": "support.github.com",
     "legal.aiPolicyTitle": "AI usage policy",
-    "legal.aiPolicyText": "The code for this site was developed with the help of the code completion tool (GitHub Copilot) in a reasoned way to assist development and improve the input of HTML, CSS and JavaScript code.",
+    "legal.aiPolicyText":
+      "The code for this site was developed with the help of the code completion tool (GitHub Copilot) in a reasoned way to assist development and improve the input of HTML, CSS and JavaScript code.",
     "legal.intellectualPropertyTitle": "Intellectual property",
-    "legal.intellectualPropertyText": "All content on this site (texts, photographs, images, designs, and works) is, unless otherwise stated, the exclusive property of NGUYEN Thi To Tam. Any full or partial reproduction or representation of this site, by any process whatsoever, is prohibited without prior authorization.",
+    "legal.intellectualPropertyText":
+      "All content on this site (texts, photographs, images, designs, and works) is, unless otherwise stated, the exclusive property of NGUYEN Thi To Tam. Any full or partial reproduction or representation of this site, by any process whatsoever, is prohibited without prior authorization.",
   },
 };
 

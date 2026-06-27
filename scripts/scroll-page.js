@@ -98,6 +98,51 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
+  const logoImage = document.querySelector(".logo");
+  const closeIcon = document.querySelector(".close-icon");
+  const nightModeIcon = document.querySelector(".night-mode-icon");
+  const applyNightMode = (isNightMode) => {
+    document.body.classList.toggle("night-mode-active", isNightMode);
+    if (logoImage) {
+      const lightSrc = logoImage.dataset.lightSrc;
+      const darkSrc = logoImage.dataset.darkSrc;
+      logoImage.src = isNightMode ? darkSrc || lightSrc : lightSrc || darkSrc;
+    }
+    if (closeIcon) {
+      const lightSrc = closeIcon.dataset.lightSrc;
+      const darkSrc = closeIcon.dataset.darkSrc;
+      closeIcon.src = isNightMode ? darkSrc || lightSrc : lightSrc || darkSrc;
+    }
+    if (nightModeIcon) {
+      const lightSrc = nightModeIcon.dataset.lightSrc;
+      const darkSrc = nightModeIcon.dataset.darkSrc;
+      nightModeIcon.src = isNightMode
+        ? darkSrc || lightSrc
+        : lightSrc || darkSrc;
+    }
+    localStorage.setItem("portfolio-night-mode", String(isNightMode));
+  };
+
+  const nightModeToggle = document.querySelector(".night-mode");
+  if (nightModeToggle) {
+    nightModeToggle.addEventListener("click", () => {
+      applyNightMode(!document.body.classList.contains("night-mode-active"));
+    });
+  }
+
+  const storedNightMode = localStorage.getItem("portfolio-night-mode");
+  if (storedNightMode !== null) {
+    applyNightMode(storedNightMode === "true");
+  } else if (document.body.classList.contains("night-mode-active")) {
+    applyNightMode(true);
+  }
+
+  window.addEventListener("storage", (event) => {
+    if (event.key === "portfolio-night-mode") {
+      applyNightMode(event.newValue === "true");
+    }
+  });
+
   window.addEventListener("scroll", onScroll, { passive: true });
   onScroll();
 });
